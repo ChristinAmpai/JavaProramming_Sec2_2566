@@ -1,0 +1,5 @@
+Student_id : 2313111102
+student Name : Christin Amapi
+Major : IT
+Level : 1
+Faculty : Information Techonology 
