@@ -1,0 +1,4 @@
+Id : 2313111102
+Name-Surname : Christin Ampai
+Date : Now-15-2023
+Topic : Input Data
