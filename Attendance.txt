@@ -1,4 +1,4 @@
 Id : 2313111102
 Name-Surname : Christin Ampai
-Date : Jan-1O-2024
-Topic : In-class lab exercise : Class and Object
+Date : Jan-17-2024
+Topic : In-class lab exercise  : Encapsulation Concept
