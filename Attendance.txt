@@ -1,4 +1,4 @@
 Id : 2313111102
 Name-Surname : Christin Ampai
-Date : Jan-31-2024
-Topic : In-class lab exercise Composition, Inheritance, and Polymorphism ConceptAbstract and Interface
+Date : Fed-7-2024
+Topic : In-class lab exercise: Read File
