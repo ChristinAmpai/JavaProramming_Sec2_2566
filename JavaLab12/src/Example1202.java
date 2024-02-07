@@ -1,0 +1,50 @@
+import java.io.*;
+import java.util.*;
+public class Example1202 {
+
+	public static void main(String[] args)throws IOException {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		System.out.println("Input Section: ");
+		int sectionInput = input.nextInt();
+		Header();
+		showListStudent(sectionInput);
+
+	}
+	
+	public static void showListStudent (int section) throws IOException{
+		BufferedReader readFile = new BufferedReader(new FileReader("d://txtFile//List107.txt"));
+		String tmp = "";
+		while(( tmp= readFile.readLine())!=null) {
+			 String[] data = tmp.split("\t");
+			 int sectionData =Integer.parseInt(data[3]);
+			 double midteanScore = Double.parseDouble(data[4]);
+			 double finalScore = Double.parseDouble(data[5]);
+			 
+			 if (sectionData==section) {
+				 System.out.println(data[0]+"\t"+data[2]+"\t"+midteanScore+"\t"+finalScore
+						 +"\t"+findReslt(midteanScore,finalScore));
+			 }
+			 
+	}
+		readFile.close();
+	}
+	public static String findReslt(double midScore,double finScore) {
+		double totalScore = midScore+finScore;
+		if(totalScore<=40) {
+			return "Fail";
+		}		
+		else {
+			return "Pass";	
+		}
+			
+		
+	}
+	
+	public static void Header() {
+		System.out.println("=====================================================");
+		System.out.println("\t\tList os Data for Section ");
+		System.out.println("=====================================================");
+	}
+
+}
