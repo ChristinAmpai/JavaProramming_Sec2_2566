@@ -1,4 +1,4 @@
 Id : 2313111102
 Name-Surname : Christin Ampai
-Date : Fed-7-2024
+Date : Fed-14-2024
 Topic : In-class lab exercise: Read File
